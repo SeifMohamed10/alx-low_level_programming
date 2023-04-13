@@ -5,7 +5,7 @@
  * @b: byts number
  * Return:  pointer to the allocated memory
  */
-void *malloc_checked(signed int x)
+void *malloc_checked(unsigned int x)
 {
 	void *ptr;
 	ptr =malloc(x);
